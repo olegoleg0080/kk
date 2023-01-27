@@ -236,16 +236,13 @@ color: white;
   color: #333333;
 }
 .block1{
-  position: relative;
   display: inline-flex;
 }
 .block2{
-  position: relative;
   display: inline-flex;
   margin-top: 43px;
 }
 .block3{
-  position: relative;
   display: inline-flex;
   margin-top: 43px;
 }
