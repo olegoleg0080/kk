@@ -14,7 +14,7 @@ ul.hero-list{
   gap: 12px;
 }
 .hero-list-item-btn{
-  padding: 35px 0 40px 35px;
+  padding: 35px 120px 40px 35px;
   background-color: #8D86C9;
   width: 315px;
   font-weight: 600;
@@ -32,7 +32,26 @@ ul.hero-list{
   font-size: 24px;
 
 }
-
+.svg-btn-hero-list{
+  position: absolute;
+  left: 567px;
+  top: 820px;
+}
+.svg-btn-hero-list1{
+  position: absolute;
+  left: 894px;
+  top: 820px;
+}
+.svg-btn-hero-list2{
+  position: absolute;
+  left: 1221px;
+  top: 820px;
+}
+.svg-btn-hero-list3{
+  position: absolute;
+  left: 1548px;
+  top: 820px;
+}
 a.a{
   text-decoration: none;
   text-align: left;
@@ -45,7 +64,20 @@ h1{
 .t1{
   display: inline-block;
 /* padding-top: 200px;*/
-  margin-bottom: 342px;
+  margin-bottom: 68px;
+}
+
+.btn-p{
+  padding-left: 38px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+.div-hero{
+  display: flex;
+  margin-bottom: 210px;
+  margin-left: 9px;
 }
 
 .link {
@@ -84,6 +116,7 @@ header .container{
   align-items: center;
 }
 .nav-menu-list {
+  position: absolute;
   display: flex;
   color: white;
   gap: 40px;
@@ -94,6 +127,21 @@ header .container{
 
 }
 
+.icon-svg{
+  width: 36px;
+  height: 36px;
+  display: block;
+  position: relative;
+  fill: #ffffff;
+  transform: translateY(-20%);
+}
+
+.icon-svg1:hover{
+  fill: red;
+}
+.icon-svg2:hover{
+  fill: blue;
+}
 
 .img{
   width: 154px;
@@ -120,10 +168,44 @@ color: white;
   padding-top: 150px;
 }
 .images > .img1{
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   border: 1px solid #F7ECE1;
+}
+.img1-1{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #F7ECE1;
+}
+.img2-1{
   width: 376px;
   height: 450px;
+  background-image: url(../images/Rectangle\ 39.png);
+}
+.img2-2{
+  width: 376px;
+  height: 450px;
+  background-image: url(../images/Rectangle\ 41.png);
+}
+.img2-3{
+  width: 376px;
+  height: 450px;
+  background-image: url(../images/Rectangle\ 48.png);
+}
+.s-img-p{
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  width: 376px;
+  height: 76px;
+  padding-top: 334px;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 1.4;
 }
 
 
@@ -157,7 +239,14 @@ color: white;
   font-size: 21px;
   line-height: 1.4;
 }
-
+.block-p::before{
+    display: inline-block;
+    content:'';
+    width: 8px;
+    height: 8px;
+    margin-right: 23px;
+    background-color: #8D86C9;
+}
 /* portfolio*/
 .portfolio{
   background-color: white;
@@ -203,11 +292,12 @@ color: white;
 
 }
 
-.icon{
+.icon::before{
+  display: inline-block;
+  content:'';
   width: 8px;
   height: 8px;
   background-color: #8D86C9;
-  margin: 0;
 }
 .icon1{
   display: flex;
@@ -222,7 +312,6 @@ color: white;
 }
 .blocc{
   width: 400px;
-  padding-left: 30px;
 }
 
 .h2-2{
@@ -234,7 +323,7 @@ color: white;
   max-width: 430px;
   color: #333333;
 }
-.block1{
+/*.block1{
   display: inline-flex;
 }
 .block2{
@@ -250,6 +339,7 @@ color: white;
   display: inline-flex;
   margin-top: 42px;
 }
+*/
 
 /*abonement*/
 
@@ -265,6 +355,7 @@ color: white;
   border: 0;
   width: 526px;
   height: 59px;
+  padding: 0;
 }
 .abon{
   padding-top: 150px;
@@ -294,19 +385,20 @@ color: white;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.4;
-  padding-right: 419px;
+  margin-right: 419px;
   padding-bottom: 75px;
 }
 
 .b-nav{
+  position: relative;
   width: 45px;
   height: 45px;
   background-color: #8D86C9;
   border: 0;
   color:white;
-  padding-left: 0;
-  padding-right: 0;
-  gap: 15px;
+  padding: 0;
+  right: 0;
+
 }
 
 .btn-nav{
