@@ -188,6 +188,14 @@ header .container{
   fill: #ffffff;
   transform: translateY(-20%);
 }
+.icon-svg6{
+  width: 36px;
+  height: 36px;
+  display: block;
+  position: relative;
+  fill: var(--acsent);
+  transform: translateY(-20%);
+}
 
 .icon-svg1:hover{
   fill: red;
@@ -195,7 +203,21 @@ header .container{
 .icon-svg2:hover{
   fill: blue;
 }
-
+.icon-svg1-2:hover{
+  fill: red;
+}
+.icon-svg2-2:hover{
+  fill: blue;
+}
+.icon-svg3-2:hover{
+  fill: rgb(0, 128, 255);
+}
+.futur-icon{
+  gap: 20px; 
+  display: flex;
+  transform: translateY(20%);
+  margin-left: 67px;
+}
 .img{
   width: 154px;
   height: 46px;
@@ -312,7 +334,26 @@ color: white;
 
 
 .h2-portfolio{
-  padding-top: 150px
+  display: inline-block;
+  padding-top: 150px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+}
+.svg-portfolio-btn {
+  padding: 0;
+  border: 0;
+  width: 45px;
+  height: 45px;
+  background-color: var(--acsent);
+}
+.svg-vek{
+  transform: translate(30%, 34%);
+}
+.svg-portfolio {
+    width: 45px;
+    height: 45px;
 }
 .portfolio-li{
   gap: 24px;
@@ -409,6 +450,8 @@ color: white;
   width: 526px;
   height: 59px;
   padding: 0;
+  padding-left: 30px;
+  text-align: start;
 }
 .abon{
   padding-top: 150px;
@@ -416,6 +459,10 @@ color: white;
 }
 .abonements{
   padding-bottom: 31px;
+}
+.img-abonement{
+  position: absolute;
+  left: 783px;
 }
 
 /*servis*/
@@ -438,8 +485,6 @@ color: white;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.4;
-  margin-right: 419px;
-  padding-bottom: 75px;
 }
 
 .b-nav{
@@ -475,7 +520,6 @@ color: white;
 /* future */
 
 .future{
-  border-bottom: 1px solid #ffffff;
   background-color: #F7ECE1;
   padding-bottom: 38px;
   padding-top: 38px;
@@ -488,6 +532,7 @@ color: white;
   size: 14px;
 }
 .future-nav-menu-list{
+  align-items: center;
   display: flex;
   color: white;
   gap: 40px;
@@ -513,6 +558,9 @@ color: white;
 .hero{
   display: flex;
   padding-top: 200px
+}
+.hero1{
+    display: flex;
 }
 .new{
   width: 636px;
