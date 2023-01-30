@@ -24,7 +24,9 @@ ul.hero-list{
   text-align: start;
   color: white;
 }
-
+.hero{
+  background-repeat: no-repeat;
+}
 .hero-list-item-btn > span{
   display: block;
   margin-top: 17px;
@@ -141,9 +143,6 @@ h1{
 
 /* style */
 
-body {
-  background-color: #232323;
-}
 /* main html */
 
 header {
