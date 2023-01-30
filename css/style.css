@@ -148,7 +148,7 @@ body {
 
 header {
   border-bottom: 1px solid #ffffff;
-  background-color: #000000;
+  background: none;
   padding-bottom: 30px;
   padding-top: 30px;
 }
